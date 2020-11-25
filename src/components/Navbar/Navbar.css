@@ -1,0 +1,44 @@
+.navbar{
+  background-color: var(--background-color);
+  position: fixed;
+  width:100%;
+  color: var(--font-color);
+  display:grid;
+  padding:1em;
+  align-items: center;
+  grid-template: auto/ auto  200px; 
+  border-bottom:0.05px solid grey;
+  z-index:100;
+}
+
+.options{
+  justify-self: flex-end; 
+  display:grid;
+  grid-template: auto /1fr 1fr 1fr 1fr;
+  grid-gap:1em;
+  align-items:center;
+  justify-items: center;  
+}
+
+.reputation-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+@media only screen and (min-width: 1022px) {
+  /* For desktop: */
+  
+  .navbar{
+    display: grid;
+    padding:1em;
+    grid-template: auto/ auto  200px; 
+    }
+
+   
+    
+ 
+
+}

@@ -1,0 +1,71 @@
+
+.signin-page{
+  display: grid;
+  min-height: 100vh;
+  text-align: center;
+  place-items:center;
+}
+
+
+.signin-form{
+  padding: 28px;
+  display:grid;
+  grid-template-columns: minmax(0,250px);
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.left-half{
+  display: grid;
+  place-items: center;
+  width:100%;
+}
+
+.right-half{
+  display:none;
+}
+
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+  
+
+  
+
+
+
+
+@media only screen and (min-width: 1022px) {
+  /* For desktop: */
+
+  .signin-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    place-items:center;
+  }
+
+  .signin-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+  }
+
+  .skills{
+    grid-column: 1/3;
+  }
+
+  .right-half{
+    display:grid;
+    place-items:center;
+  }
+
+  .button{
+    grid-column: 1/3;
+  }
+}

@@ -1,0 +1,6 @@
+.profile{
+ display:grid;
+grid-template: auto/auto;
+height:100%;
+ padding: 1em;
+}

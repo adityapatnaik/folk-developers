@@ -1,0 +1,85 @@
+#root {
+ --accent-color : rgb(167, 167, 240);
+ --background-color : #181818;
+ --outline-button-fill-color: #a6a5e100;
+ --font-color: white;
+ --leftbar-width: 64px;
+ --navbar-height: 64px;
+ --leftbar-icon-height: 72px;
+}
+
+.App {
+ background-color: var(--background-color);
+ color: var(--font-color);
+ height: 100%;
+ position: relative;
+}
+
+ .title{
+  font-size: 28px;
+  font-weight: 900;
+  line-break: none;
+ }
+
+ .text-label{
+  align-self: start;
+  margin-bottom: 0.5em;
+  margin-top:1em;
+ }
+
+ .text-input{
+  border:none;
+  font-size: 1rem;
+  width:100%;
+  height:3em;
+  text-indent: 1em;
+  border-radius: 0.5em;
+  outline: none;
+ }
+
+ .button{
+  min-width:100%;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  color: var(--font-color);
+  background-color: var(--accent-color);
+  height: 40px;
+  border-radius: 8px;
+  margin-top:1em;
+   
+ }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1022px) {
+  /* For desktop: */
+  
+ 
+
+  
+ 
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-justify: inter-word;
+  height:100%;
+}
+

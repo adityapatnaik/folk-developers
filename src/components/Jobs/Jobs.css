@@ -1,0 +1,19 @@
+.jobs{
+  padding: 1em;
+  display:grid;
+  grid-template: auto / auto;
+  grid-gap: 1em;
+  height:100%;
+}
+
+@media only screen and (min-width: 1022px) {
+  /* For desktop: */
+  .jobs{
+    display:grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr ;
+    grid-gap: 1em;
+    height:100%;
+  }
+  
+
+}
